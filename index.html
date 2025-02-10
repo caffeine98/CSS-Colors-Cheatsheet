@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <title>CSS Colors Cheat Sheet</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>CSS Colors Cheat Sheet</h1>
+      </header>
+      <h2>Named Colors</h2>
+      <p>Named colors consist of colors in english. These consist of simple color names such as red, green and blue, or names with modifiers in them such as darkblue, forestgreen and lightseagreen.</p>
+      <div class="codeblock">
+      <pre>
+        p {
+          color: lightseagreen;
+        }
+      </pre>
+      </div>
+
+      <h2>Hexadecimal</h2>
+      <p>A hex color begins with a hash character (#) which is followed by three or six characters. The characters represent values for red, blue and green. For example, the color brown can be represnted in hexadecimal as #a52a2a.</p>
+      <div class="codeblock">
+      <pre>
+        h2 {
+          color: #a52a2a;
+        }
+      </pre>
+      </div>
+
+      <h2>RGB Colors</h2>
+      <p>Colors can be represnted as RGB values instead of hexadecimal, where three values for red, green, and blue, are used to create the color. The values range from 0 to 255</p>
+      <div class="codeblock">
+      <pre>
+        header {
+          background-color: rgb(143, 188, 143);
+        }
+      </pre>
+      </div>
+      
+      <h2>HSL Colors</h2>
+      <p>HSL is a different color scheme that uses hue, saturation and lighting to determine the color. The first number represents the degree of the hue, and can be between 0 and 360. The second and third numbers are percentages representing saturation and lightness respectively.</p>
+      <div class="codeblock">
+      <pre>
+        footer {
+          background-color: hsl(120, 60%, 70%);
+        } 
+      </pre>
+      </div>
+
+      <h2>Quick Reference</h2>
+      <div class="quickreference">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Color</th>
+              <th scope="col">Hex</th>
+              <th scope="col">RGB</th>
+              <th scope="col">HSL</th>
+              <th scope="col">Sample</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>white</td>
+              <td>#ffffff</td>
+              <td>rgb(255,255,255)</td>
+              <td>hsl(0,0%,100%)</td>
+              <td style="background-color: white"></td>
+            </tr>
+            <tr>
+              <td>black</td>
+              <td>#000000</td>
+              <td>rgb(0,0,0)</td>
+              <td>hsl(0,0%,0%)</td>
+              <td style="background-color: black"></td>
+            </tr>
+            <tr>
+              <td>red</td>
+              <td>#ff0000</td>
+              <td>rgb(255,0,0)</td>
+              <td>hsl(0,100%,50%)</td>
+              <td style="background-color: red"></td>
+            </tr>
+            <tr>
+              <td>navy</td>
+              <td>#000080</td>
+              <td>rgb(0,0,128)</td>
+              <td>hsl(240,100%,25%)</td>
+              <td style="background-color: navy"></td>
+            </tr>
+            <tr>
+              <td>forestgreen</td>
+              <td>#228b22</td>
+              <td>rgb(34,139,34)</td>
+              <td>hsl(120,61%,34%)</td>
+              <td style="background-color: forestgreen"></td>
+            </tr>
+            <tr>
+              <td>yellow</td>
+              <td>#ffff00</td>
+              <td>rgb(255,255,0)</td>
+              <td>hsl(60,100%,50%)</td>
+              <td style="background-color: yellow"></td>
+            </tr>
+            <tr>
+              <td>sienna</td>
+              <td>#a0522d</td>
+              <td>rgb(160,82,45)</td>
+              <td>hsl(19,56%,40%)</td>
+              <td style="background-color: sienna"></td>
+            </tr>
+            <tr>
+              <td>cyan</td>
+              <td>#00ffff</td>
+              <td>rgb(0,255,255)</td>
+              <td>hsl(180,100%,50%)</td>
+              <td style="background-color: cyan"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    background-color: #DDEB9D;
+    font-family: 'Trebuchet MS', sans-serif;
+    max-width: 75%;
+    margin: 10px auto;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .codeblock {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #A0C878;
+  }
+  
+  .quickreference table {
+    margin: 30px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-width: 95%;
+    text-align: center;
+  }
+  
+  .quickreference thead {
+    background-color: #A0C878;
+  }
+  
+  .quickreference tbody tr {
+    height: 30px;
+    
+  }
+  
+  .quickreference th {
+    height: 40px;
+    border: 1px solid black;
+  }
+  
+  .quickreference td {
+    border: 1px solid black;
+  }
+  
+  
